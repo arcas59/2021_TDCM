@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="be" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="TD Consulting and Management | Accountant | Belastingadviseurs in Dilbeek, Anderlecht, Molenbeek en Brussel...">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"><!-- Favicon-->
+  <link rel="shortcut icon" href="../../assets/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon.png">
+  <meta name="theme-color" content="#2196f3">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><!-- Facebook-->
+  <meta property="author" content="BuZZ SNC">
+  <meta property="og:site_name" content="Tdcm.be">
+  <meta property="og:locale" content="be_BE">
+  <meta property="og:type" content="website"><!-- Twitter-->
+  <meta property="twitter:site" content="Tdcm.be">
+  <meta property="twitter:domain" content="Tdcm.be">
+  <meta property="twitter:creator" content="BuZZ SNC">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:image:src" content="../../assets/images/agency-logo.png">
+  <meta property="og:url" content="Tdcm.be">
+  <meta property="og:title" content="TD Consulting and Management">
+  <meta property="og:description" content="TD Consulting and Management>
+  <meta name="twitter:site" content="TD Consulting and Management">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../../images/agency-logo.png">
+  <meta property="og:image" content="../../images/agency-logo.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <title>TD Consulting and Management</title><!-- Styles-->
+  <!-- Put the 3rd/plugins css here-->
+  <link href="../../assets/css/vendors/normalize.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/bootstrap.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/jquery.youtubebackground.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/magnific-popup.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/materialize.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/hamburger-menu.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/animate.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/animate-extends.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
+  <link href="../../assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
+  <link href="../../assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.5; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="../../assets/images/loading.gif" alt="loading"></div>
+  <div class="m-application theme--light transition-page" id="app">
+    <div class="loading"></div>
+    <div class="m-content ocean-blue ocean-blue-var" id="main-wrap">
+      <div>
+        <div id="home"></div>
+        <div class="main-wrap">
+          <!-- ##### HEADER #####-->
+          <div class="sidenav mobile-nav" id="slide-menu">
+            <ul class="collection">
+              <li class="collection-item" style="animation-duration: 0.25s"><a class="sidenav-close waves-effect menu-list" href="#about">Over ons</a></li>
+              <li class="collection-item" style="animation-duration: 0.5s"><a class="sidenav-close waves-effect menu-list" href="#services">Onze expertise</a></li>
+              <li class="collection-item" style="animation-duration: 1s"><a class="waves-effect menu-list" href="#map-address">contact</a></li>
+            </ul>
+          </div>
+          <header class="app-bar header" id="header">
+            <div class="container">
+              <div class="header-content">
+                <nav class="nav-logo">
+                  <button class="mobile-menu btn-icon waves-effect hamburger hamburger--spin show-sm-down" id="mobile_menu" type="button">
+                    <span class="hamburger-box"><span class="bar hamburger-inner"></span></span>
+                  </button>
+                  <div class="logo scrollnav">
+                    <a href="#home"><img src="../../assets/images/agency-logo.png" alt="logo" />TD Consulting and Management</a>
+                  </div>
+                </nav>
+                <nav class="nav-menu">
+                  <div class="scrollactive-nav show-md-up scrollnav">
+                    <ul>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#about">Over ons</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#services">Onze expertise</a></li>
+                      <li><a class="btn btn-flat anchor-link waves-effect" href="#map-address">contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-setting">
+                    <div class="setting">
+                      <button class="btn btn-icon waves-effect btn-small m-2 dropdown-trigger" data-target="dropdown_config" type="button" data-align="left">
+                        <i class="icon material-icons" id="setting_icon">settings</i>
+                      </button>
+                      <div class="dropdown-content" id="dropdown_config">
+                        <ul class="collection with-header">
+                          <li class="collection-header">themamodus</li>
+                          <li class="collection-item no-hover pl-4">
+                            <div class="flex-menu">
+                              <div class="switch">
+                                <label>Claire<input id="theme_switcher" type="checkbox"><span class="lever"></span>Dark</label>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="dropdown-divider"></div>
+                        <ul class="collection with-header lang-menu" id="lang_menu">
+                          <li class="collection-header">talen</li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="en" href="#">
+                              <div class="flag circle"><i class="en"></i></div>
+                              <span class="content lang-opt text-truncate">Engels</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="fr" href="#">
+                              <div class="flag circle"><i class="pt"></i></div>
+                              <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿Frans</span>
+                            </a>
+                          </li>
+                          <li class="collection-item lang-list waves-effect avatar">
+                            <a data-lang="nl" href="#">
+                              <div class="flag circle"><i class="zh"></i></div>
+                              <span class="content lang-opt text-truncate">Nederlands</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!-- ##### END HEADER #####-->
+          <main class="container-wrap">
+            <!-- ##### PARALLAX SQUARE #####-->
+            <div class="parallax-wrap">
+              <div id="square">
+                <div class="banner inner-parallax">
+                  <div class="figure">
+                    <div>
+                      <div data-enllax-ratio="0" data-enllax-type="foreground">
+                        <div class="parallax-square parallax-primary"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about inner-parallax">
+                  <div class="figure">
+                    <div>
+                      <div data-enllax-ratio="-0.25" data-enllax-type="foreground">
+                        <div class="parallax-square parallax-secondary"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="figure">
+                    <div>
+                      <div data-enllax-ratio="-0.2" data-enllax-type="foreground">
+                        <div class="parallax-square parallax-primary"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- ##### END PARALLAX SQUARE #####-->
+            <!-- ##### BANNER #####-->
+            <section id="banner">
+              <div class="hero-content">
+                <div class="hidden-sm-up">
+                  <figure class="mobile-cover">
+                    <img src="https://via.placeholder.com/964x723/1071ef/FFFFFF" alt="cover">
+                  </figure>
+                </div>
+                <div class="container mq-lg-up" data-class="fixed-width">
+                  <div class="row">
+                    <div class="col-md-6 px-0">
+                      <div class="banner-text">
+                        <div class="title">
+                          <h3 class="text-helper use-text-title">Boekhoudkundige expertise</h3>
+                        </div>
+                        <h5 class="subtitle use-text-subtitle2">De boekhouding en de naleving van uw wettelijke verplichtingen zijn voorwaarden voor elke managementanalyse. Deze analyse van de situatie leidt tot een besluit. Er moet rekening worden gehouden met alle parameters en repercussies op alle niveaus.</h5>
+                        <a class="button btn waves-effect btn-outlined secondary btn-large" href="mailto:contact@tdcm.com" target="_blank">Contacteer ons<i class="material-icons icon">send</i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 pa-6 show-sm-up">
+                      <div class="video-wrap">
+                        <div class="video-figure">
+                          <div class="inner-figure">
+                            <div class="hidden-sm-down">
+                              <button class="btn-play btn-floating waves-effect hide" id="btn_play">
+                                <i class="material-icons play">play_arrow</i>
+                                <i class="material-icons pause">pause</i>
+                              </button>
+                            </div>
+                            <img class="show-md-down" src="../../assets/images/office-td.jpg" alt="cover" />
+                            <img class="hidden-md-down" id="banner_cover" src="../../assets/images/office-td.jpg" alt="cover" />
+                            <div class="overlay"></div>
+                            <div class="video">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END BANNER #####-->
+            <!-- ##### ABOUT #####-->
+            <section class="space-top is-md" id="about">
+              <div class="root">
+                <div class="container fixed-width">
+                  <div class="row">
+                    <div class="col-md-5 pa-md-6 py-6 px-0">
+                      <div>
+                        <div>
+                          <div class="title-deco">
+                            <h3>Over ons</h3>
+                          </div>
+                        </div>
+                        <div class="puzzle show-lg-up">
+                          <div class="piece-big"><span></span></div>
+                          <div class="piece-small-top"><span></span></div>
+                          <div class="piece-small-bottom"><span></span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-7 pa-md-6 py-6 px-0">
+                      <h4 class="title-default use-text-subtitle">TDCM is opgericht in 2014. Sindsdien is het gegroeid, is het opgebouwd rond zijn klanten, met een permanente vraag om het beste te bieden.</h4>
+                      <div class="counter-wrap">
+                        <div class="container fixed-width">
+                          <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                              <div class="counter-item">
+                                <div class="text">
+                                  <h3 class="use-text-title2">+23</h3>
+                                  <p class="use-text-subtitle2">projecten</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="counter-item">
+                                <div class="text">
+                                  <h3 class="use-text-title2">+16</h3>
+                                  <p class="use-text-subtitle2">klanten</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <blockquote>Onze deskundigen zullen uw boekhouding op orde brengen.</blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END ABOUT #####-->
+            <!-- ##### PARALLAX DOTS #####-->
+            <div class="parallax-wrap dots-wrap">
+              <div class="inner-parallax">
+                <div class="figure">
+                  <div id="dots">
+                    <div data-enllax-ratio="-0.3" data-enllax-type="foreground">
+                      <img class="parallax-dot" src="../../assets/images/decoration/dot-deco.svg" alt="dot deco" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- ##### END PARALLAX DOTS #####-->
+            <!-- ##### SERVICES #####-->
+            <section class="space-top-short" id="services">
+              <div class="root">
+                <div class="carousel-handle">
+                  <div class="carousel-wrap">
+                    <div class="carousel">
+                      <div class="slick-carousel" id="services_carousel" data-length="6">
+                      
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="../../assets/images/entreprise.jpg" alt="image créer une entreprise" /></figure>
+                            <div class="text">
+                              <h6 class="title">STARTENDE ONDERNEMING </h6>
+                              <p>Elk jaar steunen we veel start-ups.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="../../assets/images/conseillo.jpg" alt="image conseil comptable" /></figure>
+                            <div class="text">
+                              <h6 class="title">ADVIES INZAKE BEHEER EN BOEKHOUDING</h6>
+                              <p>Als partner van uw onderneming geven wij advies over het beheer van uw onderneming.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="../../assets/images/patro.jpg" alt="image gestion patrimoine" /></figure>
+                            <div class="text">
+                              <h6 class="title">VERMOGENSBEHEER</h6>
+                              <p>Wij staan onze cliënten bij in het structureren en ontwikkelen van hun activa.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="card default-card">
+                            <figure><img src="../../assets/images/fisco.jpg" alt="image optimisation fiscale" /></figure>
+                            <div class="text">
+                              <h6 class="title">FISCALE OPTIMALISATIE</h6>
+                              <p>Met inachtneming van de wet, werken wij aan de optimalisering van uw belasting.</p>
+                            </div>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="floating-title">
+                  <div class="container fixed-width">
+                    <div class="title">
+                      <div class="title-icon-deco extend"><i class="material-icons icon">apps</i>
+                        <h3>Onze expertise</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END SERVICES #####-->
+                        <!-- ##### CALL ACTION #####-->
+            <section class="space-top-short" id="call-to-action"><svg class="background base" fill="cccccc" width="531px" height="531px" viewBox="0 0 531 531">
+                <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                  <g transform="translate(-74.000000, -74.000000)">
+                    <rect transform="translate(339.184484, 339.184484) rotate(-45.000000) translate(-339.184484, -339.184484) " x="142.184484" y="142.184484" width="394" height="394" rx="33"></rect>
+                  </g>
+                </g>
+              </svg><svg class="background front" fill="cccccc" width="531px" height="531px" viewBox="0 0 531 531">
+                <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                  <g transform="translate(-74.000000, -74.000000)">
+                    <rect transform="translate(339.184484, 339.184484) rotate(-45.000000) translate(-339.184484, -339.184484) " x="142.184484" y="142.184484" width="394" height="394" rx="33"></rect>
+                  </g>
+                </g>
+              </svg>
+              <div class="container fixed-width-md-up">
+                <div class="root">
+                  <div class="card paper">
+                    <div class="row align-items-center mb-0">
+                      <div class="col-md-8 pa-0">
+                        <h4 class="use-text-title2 pb-2">Wil je meer weten?</h4>
+                        <p class="use-text-subtitle2">Ontdek wat we voor u kunnen doen...</p>
+                      </div>
+                      <div class="col-md-4 pa-0">
+                        <div class="d-flex align-items-center justify-content-end">
+                          <a class="waves-effect btn-outlined secondary button" href="mailto:contact@tdcm.com" target="_blank">Contacteer Ons<i class="material-icons">send</i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END CALL ACTION #####-->
+            <!-- ##### MAP ADDRESS #####-->
+            <section class="space-top-short" id="map-address">
+              <div class="root">
+                <div class="container fixed-width">
+                  <div class="row spacing6">
+                    <div class="col-lg-1 pa-6 show-lg-up"></div>
+                    <div class="col-lg-5 col-md-6 pa-6">
+                      <div>
+                        <div class="title-deco">
+                          <h3>Ons Kantoor</h3>
+                        </div>
+                      </div>
+                      <div class="block">
+                        <div class="wow fadeInLeftShort" data-wow-offset="-50" data-wow-delay="0.3s" data-duration="0.3s">
+                          <div class="card paper">
+                            <h6 class="title">Onze contactgegevens</h6>
+                            <div class="row">
+                              <div class="col-sm-6 pa-0"><i class="material-icons icon">phone</i>+123 456 78 91</div>
+                              <div class="col-sm-6 pa-0"><i class="material-icons icon">email</i>contact@tdcm.be</div>
+                              <div class="col-sm-12 pa-0"><i class="material-icons icon">location_on</i>Zavelstraat 69, 1700 DILBEEK</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 pa-6">
+                      <div class="card map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.1692242904487!2d4.222073016070166!3d50.87303426470569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c09873a04477%3A0x254a59c036c9126b!2sZavelstraat%2069%2C%201700%20Dilbeek%2C%20Belgique!5e1!3m2!1sfr!2sfr!4v1638723710034!5m2!1sfr!2sfr" width="872" height="1200" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END MAP ADDRESS #####-->
+          </main>
+        </div><!-- ##### PAGE NAV #####-->
+        <div class="hidden-md-down">
+          <div class="page-nav" id="page_nav">
+            <nav class="section-nav">
+            </nav>
+            <div class="scrollnav"><a class="btn-floating btn-large primary tooltipped waves-effect waves-light" href="#home" data-position="left" data-tooltip="Revenir">
+                <div class="icon material-icons">arrow_upward</div>
+              </a></div>
+          </div>
+        </div><!-- ##### END PAGE NAV #####-->
+        <!-- ##### NOTIFIACTION #####-->
+        <div class="hidden-md-down">
+          <div class="alert full alert-dismissible fade show notification" role="alert">
+            <div class="wrapper">
+              <div class="content">
+                <div class="action">Deze site maakt gebruik van cookies om ervoor te zorgen dat u de beste ervaring heeft op onze site. Door onze site te gebruiken, aanvaardt u cookies.</div>
+                <button class="btn waves-effect white" type="button" data-dismiss="alert" aria-label="Close">Accepter</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- ##### END NOTIFIACTION #####-->
+        <!-- ##### FOOTER #####-->
+        <footer class="container footer">
+          <div class="row">
+            <div class="col-md-12 py-4 px-0">
+              <div class="logo">
+                <img src="../../assets/images/agency-logo.png" alt="logo" />
+                <h6 class="title">Cabinet TDCM</h6>
+              </div>
+              <p class="footer-desc pb-2">Uw registeraccountant</p>
+              <p class="body-2 show-md-up">&copy; TDCM - Alle rechten voorbehouden 2022</p>
+            </div>
+          <p class="body-2 text-center show-sm-down">&copy; TDCM - Alle rechten voorbehouden 2022</p>
+        </footer><!-- ##### END FOOTER #####-->
+      </div>
+    </div>
+  </div><!-- Scripts-->
+  <!-- Put the 3rd/plugins javascript here-->
+  <script src="../../assets/js/vendors/jquery.min.js"></script>
+  <script src="../../assets/js/vendors/bootstrap.min.js"></script>
+  <script src="../../assets/js/vendors/enquire.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.enllax.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.form-validator.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.touchSwipe.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.youtubebackground.js"></script>
+  <script src="../../assets/js/vendors/pace.min.js"></script>
+  <script src="../../assets/js/vendors/slick.min.js"></script>
+  <script src="../../assets/js/vendors/wow.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.navScroll.min.js"></script>
+  <script src="../../assets/js/vendors/parallax.min.js"></script>
+  <script src="../../assets/js/vendors/jquery.magnific-popup.min.js"></script><!-- This assets are not avalaible in npm.js or it has been costumized-->
+  <script src="../../assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="../../assets/js/vendors/materialize.js"></script>
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+  <script src="../../assets/js/scripts.js"></script>
+</body>
+
+</html>
